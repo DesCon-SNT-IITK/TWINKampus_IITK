@@ -44,7 +44,7 @@ function loadModel() {
   const loader = new GLTFLoader();
 
   loader.load(
-    "public/Hall3.glb", // Replace with your actual file name
+    "/Hall3.glb", // Replace with your actual file name
     (gltf) => {
       const object = gltf.scene;
       object.scale.set(0.01, 0.01, 0.01); // Adjust if needed
